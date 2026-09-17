@@ -1,0 +1,29 @@
+# Ansible runtime files
+.ansible/
+.ansible/facts/localhost
+*.retry
+
+# Ansible cache and temporary files
+.ansible-lint-cache/
+*.pyc
+__pycache__/
+
+# Sensitive data - DO NOT COMMIT
+group_vars/local.yml
+vault_password.txt
+*.key
+*.pem
+*.crt
+
+# Virtual environment directories
+.venv/
+.uv/
+
+# User-specific customizations
+group_vars/custom.yml
+
+# Backup files
+*~
+*.bak
+*.swp
+.DS_Store

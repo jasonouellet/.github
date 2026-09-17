@@ -1,0 +1,18 @@
+# Global owners for the entire repository
+# Unless a more specific path matches below, these owners will review changes.
+*       @jasonouellet
+
+# Infrastructure & CI/CD
+/.github/                    @jasonouellet
+/iac/                        @jasonouellet
+/src/                        @jasonouellet
+
+# Documentation
+/*.md                        @jasonouellet
+/docs/                       @jasonouellet
+
+# Dependencies & Configuration
+/go.mod                      @jasonouellet
+/go.sum                      @jasonouellet
+/package.json                @jasonouellet
+/package-lock.json           @jasonouellet
